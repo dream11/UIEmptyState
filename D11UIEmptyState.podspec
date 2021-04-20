@@ -1,7 +1,7 @@
 
 Pod::Spec.new do |s|
 
-  s.name         = "UIEmptyState"
+  s.name         = "D11UIEmptyState"
   s.version      = "3.1.1"
   s.summary = 'TODO: Add Short description of the pod here.'
   s.description = 'TODO: Add long description of the pod here. DESC'
