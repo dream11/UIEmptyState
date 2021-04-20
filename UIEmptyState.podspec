@@ -3,18 +3,14 @@ Pod::Spec.new do |s|
 
   s.name         = "UIEmptyState"
   s.version      = "3.1.1"
-  s.summary      = "An empty state control to give visually appealing context when building iOS applications."
-  s.description  = <<-DESC
-  Empty state control which gives context with either a message, image, and buttons to the user when ever there is a reason the state is empty.
-  Easily conform to the protocol to provide a visually appealing view to an empty table view controller.
-                   DESC
-  s.homepage     = "https://github.com/luispadron/UIEmptyState"
-  s.screenshots  = "https://raw.githubusercontent.com/luispadron/UIEmptyState/master/GitHubAssets/screen1.jpg", "https://raw.githubusercontent.com/luispadron/UIEmptyState/master/GitHubAssets/screen2.jpg", "https://raw.githubusercontent.com/luispadron/UIEmptyState/master/GitHubAssets/screen3.jpg"
+  s.summary = 'TODO: Add Short description of the pod here.'
+  s.description = 'TODO: Add long description of the pod here. DESC'
   s.license      = { :type => "MIT", :file => "LICENSE" }
-  s.author             = { "Luis Padron" => "luis@luispadron.com" }
-  s.social_media_url   = "https://luispadron.com"
-  s.platform     = :ios, "9.0"
-  s.source       = { :git => "https://github.com/luispadron/UIEmptyState.git", :tag => "v#{s.version}" }
+  s.homepage = 'https://github.com/dream11'
+  s.authors = { "$(git config user.name)" => "$(git config user.email)" }
+  s.source       = { :git => "https://github.com/dream11/UIEmptyState.git", :tag => s.version }
+  s.swift_version = "5.0"
+  s.ios.deployment_target = '12.0'
   s.source_files  = "UIEmptyState", "UIEmptyState/**/*.{h,m}"
 end
   
